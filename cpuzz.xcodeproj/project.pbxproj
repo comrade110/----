@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE57F50E16BB5E2000B393D5 /* CurLvLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE57F50D16BB5E1F00B393D5 /* CurLvLViewController.m */; };
 		CE7C019E163FA2E9001657B0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7C019A163FA26A001657B0 /* QuartzCore.framework */; };
 		CE7C78F516363F79007C5D1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7C78F416363F79007C5D1F /* UIKit.framework */; };
 		CE7C78F716363F79007C5D1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7C78F616363F79007C5D1F /* Foundation.framework */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE57F50C16BB5E1F00B393D5 /* CurLvLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurLvLViewController.h; sourceTree = "<group>"; };
+		CE57F50D16BB5E1F00B393D5 /* CurLvLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurLvLViewController.m; sourceTree = "<group>"; };
 		CE7C019A163FA26A001657B0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CE7C78F016363F79007C5D1F /* cpuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cpuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7C78F416363F79007C5D1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -110,6 +113,8 @@
 				CE7C790A16363F79007C5D1F /* ViewController.m */,
 				CE7C7914163643E2007C5D1F /* LevelViewController.h */,
 				CE7C7915163643E2007C5D1F /* LevelViewController.m */,
+				CE57F50C16BB5E1F00B393D5 /* CurLvLViewController.h */,
+				CE57F50D16BB5E1F00B393D5 /* CurLvLViewController.m */,
 				CE7C7917163643FB007C5D1F /* GameViewController.h */,
 				CE7C7918163643FB007C5D1F /* GameViewController.m */,
 				CE7E565B163789E800D0056F /* TileObj.h */,
@@ -233,6 +238,7 @@
 				CE7C7919163643FB007C5D1F /* GameViewController.m in Sources */,
 				CE7E565D163789E800D0056F /* TileObj.m in Sources */,
 				CE8458DC169BF99000F597C0 /* JSONKit.m in Sources */,
+				CE57F50E16BB5E2000B393D5 /* CurLvLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +286,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -298,7 +304,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -312,7 +318,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "开心填字/cpuzz-Prefix.pch";
 				INFOPLIST_FILE = "开心填字/cpuzz-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = cpuzz;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -326,7 +332,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "开心填字/cpuzz-Prefix.pch";
 				INFOPLIST_FILE = "开心填字/cpuzz-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = cpuzz;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

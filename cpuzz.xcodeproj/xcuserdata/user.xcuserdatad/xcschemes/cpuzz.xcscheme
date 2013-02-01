@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE7C78EF16363F79007C5D1F"
-               BuildableName = "&#24320;&#24515;&#22635;&#23383;.app"
+               BuildableName = "cpuzz.app"
                BlueprintName = "cpuzz"
                ReferencedContainer = "container:cpuzz.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE7C78EF16363F79007C5D1F"
-            BuildableName = "&#24320;&#24515;&#22635;&#23383;.app"
+            BuildableName = "cpuzz.app"
             BlueprintName = "cpuzz"
             ReferencedContainer = "container:cpuzz.xcodeproj">
          </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE7C78EF16363F79007C5D1F"
-            BuildableName = "&#24320;&#24515;&#22635;&#23383;.app"
+            BuildableName = "cpuzz.app"
             BlueprintName = "cpuzz"
             ReferencedContainer = "container:cpuzz.xcodeproj">
          </BuildableReference>
@@ -69,7 +69,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE7C78EF16363F79007C5D1F"
-            BuildableName = "&#24320;&#24515;&#22635;&#23383;.app"
+            BuildableName = "cpuzz.app"
             BlueprintName = "cpuzz"
             ReferencedContainer = "container:cpuzz.xcodeproj">
          </BuildableReference>

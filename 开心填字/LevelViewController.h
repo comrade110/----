@@ -12,7 +12,11 @@
 @interface LevelViewController : UIViewController<UIScrollViewDelegate>
 {
     UIScrollView *scrollView;
-
+    UIPageControl *pageControl;
+    NSMutableArray *viewControllers;
+    int kNumberOfPages;
+    // To be used when scrolls originate from the UIPageControl
+    BOOL pageControlUsed;
 }
 
 @end
