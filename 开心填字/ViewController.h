@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+
+
+}
+
+@property(nonatomic,retain) IBOutlet UIButton *startBtn;
+
+-(IBAction)startBtnPress:(id)sender;
 
 @end

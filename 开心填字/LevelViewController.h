@@ -15,8 +15,11 @@
     UIPageControl *pageControl;
     NSMutableArray *viewControllers;
     int kNumberOfPages;
+    NSArray *contentList;
+    
     // To be used when scrolls originate from the UIPageControl
     BOOL pageControlUsed;
 }
+@property(nonatomic,retain) NSMutableArray *viewControllers;
 
 @end

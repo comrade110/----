@@ -7,17 +7,26 @@
 //
 
 #import "ViewController.h"
+#import "LevelViewController.h"
 
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
+
+@synthesize startBtn;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(IBAction)startBtnPress:(id)sender
+{
+    LevelViewController *levelview = [[LevelViewController alloc] init];
+    
+    [self presentModalViewController:levelview animated:YES];
+
 }
 
 - (void)viewDidUnload

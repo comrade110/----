@@ -12,6 +12,8 @@
 
     int pageNumber;
 }
+
+
 - (id)initWithPageNumber:(int)page;
 
 @end
