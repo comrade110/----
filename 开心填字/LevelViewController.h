@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "JSONKit.h"
+#import "Config.h"
 
 @interface LevelViewController : UIViewController<UIScrollViewDelegate>
 {

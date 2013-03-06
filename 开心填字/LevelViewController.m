@@ -9,7 +9,6 @@
 #import "LevelViewController.h"
 #import "CurLvLViewController.h"
 
-#define PER_PAGE_LVL_NUM 20
 
 @interface LevelViewController ()
 
